@@ -1,0 +1,61 @@
+# Project Auto-Registration
+# List enabled projects (one per line)
+# Supports both flat and nested structures:
+#   - Flat: <project-name>
+#   - Nested: <category>/<project-name>
+# Projects with :dev suffix are auto-built in dev mode
+#
+# Format: <project-path> or <project-path>:dev
+# Example: games/cs-pathway:dev
+
+# === NESTED STRUCTURE (organized by category) ===
+# Games
+games/astronaut-platformer-game
+games/castle-game
+games/cs-pathway:dev
+games/escape-the-tower
+games/gamify
+games/heist-exe
+games/kirby-minigames
+games/mansionGame
+games/nod-game
+games/pirate-hunt
+games/platformer
+games/red-riding
+games/spline-barriers
+games/tag-game-multiplayer
+games/voidstriker
+games/racing-game:dev
+
+# Lessons
+lessons/ap-frq-simulator
+lessons/cpt-concepts
+lessons/flask:dev
+lessons/game-lessons
+lessons/parallelAndComputinglesson
+lessons/robot-logic-game
+lessons/sass
+lessons/python
+lessons/javascript
+lessons/java
+lessons/cs112
+lessons/cs113
+lessons/csa1
+lessons/csa2
+lessons/ds2
+
+# Systems
+systems/ai-ab-engine
+systems/calendar
+systems/profile:dev
+systems/blogs:dev
+systems/topics:dev
+systems/courses:dev
+systems/gamebuilder:dev
+systems/auto-generator
+systems/auto-generator-ui
+systems/scraper
+systems/messages:dev
+systems/test-project
+
+# === FLAT STRUCTURE (legacy/uncategorized) ===
